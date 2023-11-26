@@ -1,0 +1,39 @@
+.detailsBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.detailsBar > button {
+  border: none;
+  border-radius: 20px;
+  background-color: #19870b;
+  opacity: 0.7;
+  color: white;
+  padding: 10px 25px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.detailsBar > button:hover {
+  opacity: 1;
+}
+
+.root {
+  border: 3px solid #19870b;
+  border-radius: 5px;
+  font-family: "Helvetica", "sans-serif";
+  padding: 10px;
+  width: 85%;
+  height: 60%;
+  margin-top: 100;
+  font-size: 20px;
+}
+.editor {
+  cursor: text;
+  font-size: 26px;
+  min-height: 40;
+  padding: 10;
+}
